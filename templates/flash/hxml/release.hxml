@@ -1,4 +1,5 @@
 -main ApplicationMain ::HAXE_FLAGS::
--cp ::BUILD_DIR::/cpp/haxe
--cpp ::CPP_DIR::
+-swf ::BUILD_DIR::/flash/bin/ApplicationMain.swf
+-cp ::BUILD_DIR::/flash/haxe/
 --macro allowPackage("flash")
+
