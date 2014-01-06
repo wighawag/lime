@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Skeleton" package="com.limeframework.samples.skeleton" version="1.0.0" company="OpenFL Technologies" />
+	<app main="Main" path="Export" file="Skeleton" />
+	
+	<source path="Source" />
+	
+	<haxelib name="lime" />
+	
+	<assets path="Assets" rename="assets" exclude="*.svg" />
+	<icon path="Assets/lime.svg" />
+	
+</project>

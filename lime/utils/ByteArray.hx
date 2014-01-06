@@ -2,6 +2,8 @@ package lime.utils;
 
 #if lime_html5
    typedef ByteArray = lime.utils.html5.ByteArray;
-#else
+#elseif lime_native
    typedef ByteArray = lime.utils.native.ByteArray;
-#end //lime_html5
+#elseif lime_flash
+   typedef ByteArray = flash.utils.ByteArray;
+#end

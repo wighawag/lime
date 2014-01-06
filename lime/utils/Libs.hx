@@ -126,6 +126,12 @@ class Libs {
             //todo get browser info
         #end
         
+	#if lime_flash 
+            return "Lime_FlashL";
+            //todo get flash info ?
+        #end
+        
+
     }
 
 #if lime_html5

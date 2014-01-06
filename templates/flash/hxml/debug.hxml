@@ -1,0 +1,5 @@
+-main ApplicationMain ::HAXE_FLAGS::
+-swf ::BUILD_DIR::/flash/bin/ApplicationMain.swf
+-cp ::BUILD_DIR::/flash/haxe/
+--macro allowPackage("flash")
+-debug
