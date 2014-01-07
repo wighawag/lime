@@ -74,7 +74,7 @@ import lime.utils.ByteArray;
 				if (AssetData.type.exists(id)) {
 					
 					#if flash
-						return Type.createInstance(AssetData.className.get(id), []);
+						return null;//TODO Type.createInstance(AssetData.className.get(id), []);
 					#elseif js
 
 						#if !lime_html5
@@ -144,7 +144,11 @@ import lime.utils.ByteArray;
 	        	return results;
 
 			#end //lime_html5
-			
+		
+
+            #if lime_flash
+                return null; //TODO
+            #end //lime_flash
 		}
 		
 		

@@ -389,7 +389,7 @@ class Lime {
             return nextWake;
 
         #else 
-            return null;
+            return 0;
         #end 
 
         

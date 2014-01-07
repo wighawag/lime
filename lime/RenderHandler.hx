@@ -4,15 +4,15 @@ import lime.Lime;
 import lime.utils.Libs;
 
     //Import GL 
-import lime.gl.GL;
-import lime.gl.GLBuffer;
-import lime.gl.GLProgram; 
+//import lime.gl.GL;
+//import lime.gl.GLBuffer;
+//import lime.gl.GLProgram; 
     
     //utils
-import lime.utils.Float32Array;
+//import lime.utils.Float32Array;
 
     //geometry
-import lime.geometry.Matrix3D;
+//import lime.geometry.Matrix3D;
 
 
 #if lime_html5
